@@ -1,0 +1,43 @@
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+}
+
+:root
+{
+  --black: #050810;
+  --deep: #0a0f1e;
+  --blue: #1e90ff;
+  --blue-light: #4d8fff; 
+  --blue-glow: rgba(26, 108, 255, 0.18); 
+  --white: #f0f4ff; 
+  --grey: #8899bb;
+}
+
+html { scroll-behavior: smooth;}
+
+body
+{
+  font-family: 'DM Mono', monospace;
+  background: var(--black);
+  color: var(--white); 
+  min-height: 100vh; 
+  overflow-x: hidden; 
+}
+
+/* Grid pattern background */
+body::before
+{
+  content: "";
+  position: fixed;
+  inset: 0 ;
+  background-image:
+    linear-gradient(rgba(26,108,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 108,255,0.05) 1px, transparent 1px); 
+background-size: 48px 48px; 
+pointer-events: none; 
+z-index: 0; 
+}
+
