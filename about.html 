@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>About Me </title>
+</head>
+<body>
+      <nav class="navbar">
+        <ul class="nav-list">   
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>About Me</h1>
+    <p> My name is Tayler Caufield and im currentlt working towards
+        a Bachelor's degree in Computer Science at Columbia Basin College. 
+        I have a passion for technology and programming, and I am 
+        excited to share my journey and projects through this e-portfolio. 
+        I am eager to connect with others in the tech community and collaborate on innovative 
+        projects.</p>
+    
+</body>
+</html>
